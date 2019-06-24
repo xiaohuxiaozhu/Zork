@@ -113,6 +113,7 @@ public class zork {
 
                     default:
                         System.out.println("Good bye!");
+                        System.out.println("You vistied this number of rooms: " + roomVisited);
                         continueGame = false;
                         break;
 
